@@ -1,11 +1,13 @@
 <script setup lang="ts">
 // import animateText from '@simon_he/animate-text'
-import animateText from "../../../src";
+import animateText from '../../../src'
 animateText({
-  text: "大家好,我是Simon;来自上海;我热爱coding".split(";"),
+  text: 'Hi, I am Simon He;From ShangHai;I love coding;Nice to meet you ❤ '.split(
+    ';',
+  ),
   infinity: true,
-  container: "#app",
-});
+  container: '#app',
+})
 </script>
 
 <template>
