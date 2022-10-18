@@ -1,2 +1,4 @@
-export { component } from './component'
+import { animateText } from './animate-text'
 export * from './types'
+
+export default animateText

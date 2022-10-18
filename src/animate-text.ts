@@ -1,12 +1,6 @@
 import { Canvas, animationFrameWrapper, insertElement, isStr, removeElement } from 'simon-js-tool'
+import type { IAnimateText } from './types'
 
-interface IAnimateText {
-  text: string | string[]
-  width?: number
-  height?: number
-  infinity?: boolean
-  container?: string | HTMLElement
-}
 export function animateText(options: IAnimateText, callback?: () => void) {
   const { width: w, height: h, text, infinity, container = 'body' } = options
   const { clientWidth, clientHeight } = document.documentElement

@@ -50,6 +50,7 @@
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.25.2",
+    "@simon_he/animate-text": "workspace:^0.0.1",
     "@types/node": "^17.0.38",
     "@vitejs/plugin-vue": "^3.0.1",
     "bumpp": "^7.1.1",
